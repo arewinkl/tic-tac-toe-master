@@ -31,7 +31,7 @@ li button {
   padding-right: 10px;
 }
 .status {
-  font-size: 28px;
+  font-size: 38px;
   font-weight: bold;
 }
 .board-row:after {
@@ -79,4 +79,35 @@ li button {
 
 .game-info {
   margin-left: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .square {
+    height: 30px;
+    width: 30px;
+    font-size: 15px;
+    border: 2px solid #999;
+  }
+  li button {
+    font-size: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+  .bg {
+    font-size: 8px;
+    padding-left: 1px;
+  }
+  .status {
+    font-size: 8px;
+  }
+  ol,
+  ul {
+    padding-left: 10px;
+  }
+  .game-info {
+    margin-left: 10px;
+  }
+  body {
+    margin: 2rem;
+  }
 }
